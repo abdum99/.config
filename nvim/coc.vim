@@ -189,3 +189,11 @@ imap <C-j> <Plug>(coc-snippets-expand-jump)
 xmap <leader>x  <Plug>(coc-convert-snippet)
 
 nmap <silent> ; :call CocAction('showOutline')<CR>
+
+let g:coc_global_extensions = [
+            \ 'coc-snippets',
+            \ 'coc-json',
+            \ 'coc-clangd',
+            \ 'coc-rust-analyzer',
+            \ 'coc-go'
+            \ ]
